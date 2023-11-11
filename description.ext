@@ -1,0 +1,24 @@
+class CfgFunctions
+{
+	class H2
+	{
+		class framework
+		{
+			class test {};
+			class assert_in {};
+		}
+	};
+};
+
+class Tests
+{
+	class power
+	{
+		class objects
+		{
+			class networks {
+				class test_connections {};
+			};
+		}
+	}
+}
