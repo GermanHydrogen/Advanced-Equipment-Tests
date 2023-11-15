@@ -21,8 +21,11 @@ class Tests
 			class networks {
 				class test_connections {};
 			};
-			class generators{
+			class generators {
 				class test_power_outlet {};
+			}
+			class consumers {
+				class test_base_consumer {};
 			}
 			class test_battery {};
 		}
