@@ -20,6 +20,7 @@ class Tests
 		{
 			class networks {
 				class test_connections {};
+				class test_network {};
 			};
 			class generators {
 				class test_power_outlet {};
