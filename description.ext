@@ -32,6 +32,8 @@ class Tests
 			class test_device {};
 			class test_battery {};
 			class test_global_device_storage {};
+
+			class test_simulateNetwork {};
 		}
 	}
 }

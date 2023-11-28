@@ -2,7 +2,7 @@
 	// Test power off
 	{
 		_generator = createHashMapObject [AE3_power_outlet, [objNull, 10]];
-		_rate = _generator call ["_calcPower"];
+		_rate = _generator call ["_calc_power"];
 
 		assert (_rate == 0);
 	},
@@ -10,7 +10,7 @@
 	{
 		_generator = createHashMapObject [AE3_power_outlet, [objNull, 10]];
 		_generator call ["turnOn"];
-		_rate = _generator call ["_calcPower"];
+		_rate = _generator call ["_calc_power"];
 
 		assert (_rate == 10);
 	}
