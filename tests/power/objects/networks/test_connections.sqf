@@ -1,5 +1,6 @@
 
 [
+	/*
 	{	// Test connect two nodes
 
 		_node_1 = createHashMapObject [AE3_power_connection_node];
@@ -74,4 +75,5 @@
 		assert !(_leaf in (_node call ["get_connections"]));
 		assert !(_node in (_leaf call ["get_connections"]));
 	}
+	*/
 ];

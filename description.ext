@@ -19,8 +19,9 @@ class Tests
 		class objects
 		{
 			class networks {
-				class test_connections {};
+				class test_connection_list {};
 				class test_network {};
+				class test_network_builder {};
 			};
 			class generators {
 				class test_power_outlet {};
@@ -28,7 +29,9 @@ class Tests
 			class consumers {
 				class test_base_consumer {};
 			}
+			class test_device {};
 			class test_battery {};
+			class test_global_device_storage {};
 		}
 	}
 }
